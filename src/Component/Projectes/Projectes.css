@@ -1,0 +1,65 @@
+.Project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px ;
+    background-color:#b7bac01f;
+    padding: 2.756vh 8.7847vw;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 124px;
+ 
+}
+.Project h2 {
+     color: rgb(221 56 57); 
+    font-size: 2.4375rem;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 10px;
+    max-width: 593px;
+}
+.Projectimg img {
+    width: 100%;
+    
+}
+
+.revers p {
+    max-width: 663px;
+    max-height: 92px;
+    line-height: 31px;
+}
+
+.yearul ul {
+    margin-top: 50px;
+}
+.yearul ul a li {
+    margin-top: 50px;
+    font-size: 24px;
+    line-height: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width:992px) {
+    .PromotionNumber p {
+        margin-top: 60px;
+    }
+
+    .revers {
+        gap: 0px
+    }
+}
+
+@media screen and (max-width:1273px) {
+
+    .Projectimg img {
+        margin-top: -20%;
+
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .Projectimg img {
+        margin-top: -30%;
+
+    }
+}

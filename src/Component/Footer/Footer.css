@@ -1,0 +1,63 @@
+.footer {
+    margin-top: 175px;
+    background-color: rgb(4 10 19); 
+    padding: 36px 8.7847vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer h4 {
+    margin-top: 18px;
+    margin-bottom: 17px;
+    font-weight: 600;
+    line-height: 46px;
+    color: #fff;
+    font-size: 2rem
+    
+}
+
+.AlbaaethFooter {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.ulfooter {
+    display: flex;
+    gap: 72px;
+    flex-wrap: wrap;
+   
+}
+ul{
+    list-style: none;
+    text-align: end;
+}
+
+.ulfooter ul li {
+    color: white;
+    
+}
+.ulfooter ul li h5{
+    color: rgb(104, 201, 227);;
+   
+
+}
+.iconup {
+   
+ position:absolute;
+   top: -140px;
+right: 40px;
+  
+   
+  }
+
+@media screen and (max-width:992px) {
+   .ulfooter{
+    justify-content: center;
+    margin-top: 16px
+   }
+  
+}
