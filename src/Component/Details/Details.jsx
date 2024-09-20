@@ -1,5 +1,5 @@
 import React from 'react'
-import './details.css'
+import './Details.css'
 const Details = ({title,text}) => {
   return (
     <div className='details'>
