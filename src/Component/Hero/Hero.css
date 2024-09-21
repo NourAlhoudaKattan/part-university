@@ -70,7 +70,7 @@
     .text-hero {
         align-items: center;
     background-image: linear-gradient(rgb(0 76 130 / 28%), rgb(4 10 19 / 0%));
-        margin-top: -36px;
+        margin-top: -72px;
     }
     .text-hero h2 {
         right: 60px;
@@ -95,4 +95,4 @@
         .parent-search button{
             width: 100%;
         }
-}
+    
